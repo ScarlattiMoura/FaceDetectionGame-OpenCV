@@ -42,6 +42,7 @@ Um jogo "catch the falling items" desenvolvido em **C++ com OpenCV** onde você 
 ---
 
 ## 📂 Estrutura do Projeto
+```bash
 FaceDetectionGame-OpenCV/
 │
 ├── src/
@@ -69,6 +70,7 @@ FaceDetectionGame-OpenCV/
 ├── Makefile
 ├── README.md
 └── LICENSE
+```bash
 ---
 
 ## ⚙️ Pré-requisitos
