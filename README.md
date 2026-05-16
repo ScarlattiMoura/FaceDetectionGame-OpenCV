@@ -42,3 +42,42 @@ Um jogo "catch the falling items" desenvolvido em **C++ com OpenCV** onde você 
 ---
 
 ## 📂 Estrutura do Projeto
+FaceDetectionGame-OpenCV/
+│
+├── src/
+│ ├── main.cpp # Loop principal do jogo
+│ ├── game.cpp # Lógica do jogo (itens, colisões, vidas)
+│ ├── player.cpp # Classe do personagem
+│ └── item.cpp # Classe dos itens que caem
+│
+├── include/
+│ ├── game.hpp
+│ ├── player.hpp
+│ ├── item.hpp
+│ ├── face_detector.hpp # Detecção facial com OpenCV
+│ └── collision.hpp # Detecção de colisão
+│
+├── assets/
+│ ├── images/ # Sprites e gráficos
+│ ├── sounds/ # Efeitos sonoros
+│ └── fonts/ # Fontes para texto
+│
+├── models/
+│ └── haarcascade_frontalface_default.xml
+│
+├── CMakeLists.txt
+├── Makefile
+├── README.md
+└── LICENSE
+
+---
+
+## ⚙️ Pré-requisitos
+
+Antes de compilar o projeto, você precisa ter:
+
+- **Compilador C++17** (g++ 7+ / clang 10+ / MSVC 2019+)
+- **CMake 3.10+** ou **Make**
+- **OpenCV 4.x** instalado
+- **SFML** ou **SDL2** (para renderização do jogo)
+- **Webcam** funcional
